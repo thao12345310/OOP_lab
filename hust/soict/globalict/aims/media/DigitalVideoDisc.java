@@ -28,6 +28,10 @@ public class DigitalVideoDisc extends Disc implements Playable{
     }
 
 
+    public DigitalVideoDisc(int id, String title, String category, String director, int length, float cost) {
+        //TODO Auto-generated constructor stub
+    }
+
     @Override
     public String toString() {
         return "DVD: " + super.toString();

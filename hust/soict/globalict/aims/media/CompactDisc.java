@@ -30,6 +30,11 @@ public class CompactDisc extends Disc implements Playable{
     }
 
 
+    public CompactDisc(int id, String title, String category, String artist2, String director,
+            ArrayList<Track> tracklist, float cost) {
+        //TODO Auto-generated constructor stub
+    }
+
     public String getArtist() {
         return artist;
     }
